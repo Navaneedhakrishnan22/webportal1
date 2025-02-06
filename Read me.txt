@@ -1,0 +1,4 @@
+step 1 - install xampp and start apache and my sql server 
+step 2-  open browser and enter localhost/phpmyadmil 
+step 3 - and import the sql file(job.sql)
+step 4- install the netbeans soft ware and run it 

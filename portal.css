@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+header
+{
+    background-color: #fff;
+}
+header nav
+{
+	box-shadow: 0px 0px 20px 10px rgb(210, 180, 222);
+	width: 100%;
+}
+header nav .navbar-brand 
+{
+	color: #CF2626;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+header nav a
+{
+	text-decoration: none;
+	color: black;
+	margin-right:10px;
+	margin-left:10px; 
+}
+header nav .menu2
+{
+	position: relative;
+	left: 30%;
+}
+header nav a:hover
+{
+	color: #8C02B6;
+}
+header nav input {
+	position: relative;
+	right: 80%;
+	width: 350px;
+	border-radius: 10px;
+	border: 1px solid #8C02B6;
+}
+header nav input::placeholder {
+	color: grey;
+	padding-left: 10%
+}
+.cons {
+  display: flex;
+  justify-content: space-around;
+  top: 50%;
+  left: 0;
+  height: 500px;
+  color: #fff;
+  text-align: center;
+}
+.frame {
+  padding: 0.2em;
+}
+.cons .row .frame h1 {
+  font-weight: 900;
+  color: #2A282A;
+  font-size: 55px;
+  text-align: left;
+  margin-top: 40%;
+}
+.frame p {
+  font-weight: 700;
+  color: #716E71;
+}
+.consimg {
+  position: relative;
+  width: 35em;
+  height: 25.5em;
+  bottom: 5%;
+  left: 10%;
+  margin-top: 10%;
+  filter: saturate(5); 
+  }
+.opth1 {
+	padding-top: 10%;
+	justify-content: space-around;
+	letter-spacing: 2px;
+	padding-left: 35%;
+	padding-bottom: 5%;
+}
+.opth1 h1 {
+	font-size: 50px;
+	color: black;
+	font-family: David;
+	transition: .5s;
+}
+.opth1 h1:hover {
+	color: #fff;
+}
+.opt {
+  width: 100%;
+  height: 200px;
+}
+.options {
+	border: 2px solid #fff;
+	height: 150px;
+	padding: 15%;
+	border-radius: 10px;
+	background: #fff;
+	box-shadow: 0px 0px 20px grey;
+	overflow: hidden;
+}
+.options h2 {
+	font-size: 30px;
+}
+.options:hover {
+	color: rgb(210, 180, 222);
+	box-shadow: 0px 0px 40px rgb(210, 180, 222);
+	transition:.5s;
+}
+.brand_icon {
+	background: rgb(210, 180, 222);
+	color: #fff;
+	position: fixed;
+	width: 320px;
+	height: 750px;
+	margin-left: -7.5%;
+}
+.brand_icon h1 {
+	font-size: 80px;
+	padding-top: 80%;
+	font-family: Brush Script MT;
+}
+.brand_icon h1:hover {
+	cursor: pointer;
+}
+.results {
+	background: #fff;
+	height: 250px;
+	width: 100%;
+	border-radius: 20px;
+	box-shadow: 0px 0px 20px grey;
+}
+.j_results {
+	margin: 5%;
+}
+.container_login {
+	width: 500px;
+	padding: 4em;
+	background: transparent;
+	position: relative;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 30%;
+	border-radius: 0.6em;
+	box-shadow: 0px 0px 40px rgba(0,0,0,0.9);
+	color: #fff;		
+}
+.container_login input {
+	width: 180%;
+	background: transparent;
+	color: #fff;
+}
+.container_login input::placeholder {
+	color: #fff;
+}
+@media screen and (max-width: 768px) {
+	.stlog .image {
+		visibility: hidden;
+	}
+}
+#stlogh1 {
+	color: #fff;
+	font-size: 40px;
+	position: relative;
+	top: 10%;
+	left: 10%;
+}
+.main {
+	display: flex;
+	margin-top: 10%;
+}
+.stud_reg,.alum_reg{
+	background: yellow;
+	width: 400px;
+	margin: 10%;
+	margin-top: 70%;
+}
+#description {
+	font-size: 22px;
+	font-variant: small-caps;
+	color: #fff;
+	margin-left: -15%;
+	text-indent: 40px;
+	line-height: 2rem;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding: 5px;
+	border-radius: 20px;
+}
+.description {
+	margin-top: 2%;
+	text-align: justify;
+	animation-name: intro;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+	margin-left: 15%;
+}
+@keyframes intro {
+	from {
+		visibility: hidden;
+		margin-top: 10%;
+		transition: 2s;
+	}
+	to {
+		visibility: visible;
+		margin-top: 2%;
+	}
+}
+.link{
+	margin-left: 7%;
+}
+.link h3 {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 100px;
+	margin-left: 400px;
+}
+.link h3 a {
+	color: cyan;
+	background: transparent;
+	width: 300px;
+	text-decoration: none;
+	border: 1px solid rgba(255, 255, 255, .5);
+	border-radius: 2px;
+	padding: 5px;
+}
+.link h3 a:hover {
+	background: cyan;
+	color: #fff;
+	transition:ease 2s;
+}
+
+
+
+
+
+
+
